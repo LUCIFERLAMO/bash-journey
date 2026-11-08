@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "---------------------"
+echo "System Information Tool"
+echo "---------------------"
+
 function display_name {
     name=$(whoami)
     echo "---------------------"
