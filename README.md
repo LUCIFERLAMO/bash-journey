@@ -19,3 +19,19 @@ bash "File Organize/file_organize.sh" mix_extentions
 ```
 
 This command organizes all supported files from the mix_extentions folder into the matching output folders.
+
+## Project 3: Personal Expense Calculator
+
+This Bash script lets you perform the following actions:
+- Add a debit amount
+- Credit an amount from the balance
+- View the current balance
+- Exit the program
+
+### Usage
+
+```bash
+bash "personal_expense_caluclator/personal_expense_cal.sh"
+```
+
+This script runs a simple menu-based personal expense calculator in the terminal.
