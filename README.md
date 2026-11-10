@@ -42,11 +42,14 @@ This script runs a simple menu-based personal expense calculator in the terminal
 
 ## Project 4: Log Analyzer
 
-This Bash script analyzes system logs and shows:
-- Total number of errors
-- Total number of warnings
-- Successful SSH logins
-- Failed SSH logins
+This project helps monitor system activity by reading Linux logs and summarizing important events from a selected time period.
+
+It does the following:
+- Checks the total number of system errors
+- Checks the total number of warnings
+- Tracks successful SSH login attempts
+- Tracks failed SSH login attempts
+- Lets the user choose a time range such as today, yesterday, recent hours, or previous days
 
 ### Usage
 
@@ -54,4 +57,4 @@ This Bash script analyzes system logs and shows:
 bash "log analyzer/log_analyzer.sh"
 ```
 
-This script provides an interactive time-range menu so you can view log activity for today, yesterday, or recent periods such as the last hour or last week.
+This script shows a simple menu-based log summary that helps you quickly review server health and login activity from the terminal.
